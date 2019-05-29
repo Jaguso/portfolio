@@ -14,3 +14,12 @@
   margin: 20px;
   text-align: justify;
 }
+
+.link {
+  margin: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}

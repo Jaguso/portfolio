@@ -6,11 +6,13 @@ class Card extends Component {
   render() {
     return(
       <div className="card-container">
-        <div>
-          Link a proyecto: <a href={this.props.link} target="_blank">{this.props.link}</a>
-        </div>
-        <div>
-          Repositorio en github: <a href={this.props.repo} target="_blank">{this.props.repo}</a>
+        <div className="top">
+          <div className="link">
+            Link a proyecto: <a href={this.props.link} target="_blank">{this.props.link}</a>
+          </div>
+          <div className="link">
+            Repositorio en github: <a href={this.props.repo} target="_blank">{this.props.repo}</a>
+          </div>
         </div>
         <div className="description">
           <p>Descripción: {this.props.desc}</p>
