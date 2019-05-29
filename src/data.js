@@ -9,11 +9,11 @@ const projects = [
     description: "Este es un proyecto básico de frontend hecho con React. Se pueden añadir elementos a una lista y borrarlos.",
     repo: "https://github.com/Jaguso/supermarket"
   },
-  {
-    link: "Oj",
-    description: "spdjf",
-    repo: "spdof"
-  }
+  // {
+  //   link: "https://searcher.jagutzo.now.sh/",
+  //   description: "Este es un proyecto con un input que sirve como buscador. ",
+  //   repo: "https://github.com/Jaguso/searcher-github-api-react"
+  // }
 ];
 
 export default projects;

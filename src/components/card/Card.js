@@ -12,10 +12,9 @@ class Card extends Component {
         <div>
           Repositorio en github: <a href={this.props.repo} target="_blank">{this.props.repo}</a>
         </div>
-        <div>
-          Descripción: <p>{this.props.desc}</p>
+        <div className="description">
+          <p>Descripción: {this.props.desc}</p>
         </div>
-
       </div>
     );
   }
