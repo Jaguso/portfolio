@@ -1,11 +1,13 @@
 const projects = [
   {
-    link: "soidjf",
-    description: "soidjf"
+    link: "https://images.jagutzo.now.sh/",
+    description: "Éste es un clón básico de instagram. El frontend está hecho con React y el backend con Express y Node.",
+    repo: ""
   },
   {
-    link: "osdif",
-    description: "pr2"
+    link: "https://supermarket.jagutzo.now.sh/",
+    description: "Este es un proyecto básico de frontend hecho con React. Se pueden añadir elementos a una lista y borrarlos.",
+    repo: ""
   }
 ];
 
