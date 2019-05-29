@@ -13,13 +13,14 @@ class Home extends Component {
   render() {
     return (
       <div className="main-container">
-        <p>Proyectos:</p>
+        <h2>Proyectos</h2>
           
           {this.state.projects.map((item, i) => (
             <div key={i}>
               <Card
                 link={item.link}
                 desc={item.description}
+                repo={item.repo}
               />
             </div>
           ))}
