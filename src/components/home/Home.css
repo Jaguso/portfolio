@@ -1,7 +1,6 @@
-.card-container {
-  width: 100%;
-  background-color: aqua;
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
 }
