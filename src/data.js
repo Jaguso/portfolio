@@ -1,11 +1,11 @@
 const projects = [
   {
     link: "soidjf",
-    desc: "soidjf"
+    description: "soidjf"
   },
   {
     link: "osdif",
-    desc: "pr2"
+    description: "pr2"
   }
 ];
 
